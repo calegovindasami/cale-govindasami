@@ -24,7 +24,7 @@ import { useTheme } from "@emotion/react";
 function handleTag() {}
 export const Tweet = () => {
   return (
-    <Card sx={{ width: "600px" }}>
+    <Card sx={{ width: "800px" }}>
       <CardActionArea sx={{ cursor: "default" }} disableTouchRipple={true}>
         <Box
           sx={{

@@ -1,9 +1,83 @@
 import React from "react";
 import Paper from "@mui/material/Paper";
+import { lightBlue } from "@mui/material/colors";
+import Typography from "@mui/material/Typography";
+import LinkIcon from "@mui/icons-material/Link";
+import VerifiedIcon from "@mui/icons-material/Verified";
+import "./Bio.css";
+import SchoolIcon from "@mui/icons-material/School";
+import CelebrationIcon from "@mui/icons-material/Celebration";
+import WorkIcon from "@mui/icons-material/Work";
+import { Avatar, Divider } from "@mui/material";
 export const Bio = () => {
   return (
-    <Paper sx={{ width: "100%", height: "500px", position: "relative" }}>
-      <h1>Hello</h1>
+    <Paper
+      id="Paper"
+      sx={{
+        width: "100%",
+        height: "500px",
+        display: "block",
+        position: "relative",
+      }}
+    >
+      <div id="ThreeD">
+        <Divider></Divider>
+      </div>
+      <Avatar
+        sx={{
+          height: "150px",
+          width: "150px",
+        }}
+        id="ava"
+      >
+        <img src="/avatar.jpg" height="150px"></img>
+      </Avatar>
+      <div id="biography">
+        <div id="heading">
+          <Typography id="name" component="h4" variant="h4">
+            Cale Govindasami
+          </Typography>
+          <VerifiedIcon fontSize="large" sx={{ color: lightBlue[500] }} />
+        </div>
+
+        <div id="desc">
+          <Typography paragraph>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            distinctio facilis quidem iusto est praesentium placeat fuga, totam
+            incidunt laboriosam accusantium quos minus, eaque ducimus recusandae
+            maiores magnam? Atque perferendis reprehenderit ipsum expedita.
+          </Typography>
+        </div>
+
+        <div id="tags">
+          <div>
+            <WorkIcon fontSize="small" sx={{ color: "GrayText" }} />
+            <Typography variant="body1" sx={{ color: "GrayText" }}>
+              Available
+            </Typography>
+          </div>
+          <div>
+            <LinkIcon fontSize="small" sx={{ color: "GrayText" }} />
+            <Typography variant="body1" sx={{ color: "GrayText" }}>
+              <a>Links</a>
+            </Typography>
+          </div>
+
+          <div>
+            <CelebrationIcon fontSize="small" sx={{ color: "GrayText" }} />
+            <Typography variant="body1" sx={{ color: "GrayText" }}>
+              6 April 2001
+            </Typography>
+          </div>
+
+          <div>
+            <SchoolIcon fontSize="small" sx={{ color: "GrayText" }} />
+            <Typography variant="body1" sx={{ color: "GrayText" }}>
+              Graduating 2024
+            </Typography>
+          </div>
+        </div>
+      </div>
     </Paper>
   );
 };
