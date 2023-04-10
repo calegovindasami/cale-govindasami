@@ -4,3 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+
+main {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}

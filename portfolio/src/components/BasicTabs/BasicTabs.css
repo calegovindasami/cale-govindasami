@@ -1,0 +1,9 @@
+#tbPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#demo {
+  height: 500px;
+}
