@@ -57,7 +57,7 @@ export const Tweet = () => {
                 subheader={<Chip size="small" label="📚 Exams loading. . ." />}
               />
             </Box>
-            <Typography variant="body1">
+            <Typography variant="body1" textAlign="left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolor
               animi, esse ex expedita distinctio alias perferendis maxime natus
               consequuntur. Quidem harum perspiciatis temporibus omnis aut

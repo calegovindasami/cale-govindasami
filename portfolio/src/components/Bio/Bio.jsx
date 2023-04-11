@@ -1,4 +1,7 @@
 import React from "react";
+
+import Button from "@mui/material/Button";
+import ArticleIcon from "@mui/icons-material/Article";
 import Paper from "@mui/material/Paper";
 import { lightBlue } from "@mui/material/colors";
 import Typography from "@mui/material/Typography";
@@ -42,18 +45,17 @@ export const Bio = () => {
 
         <div id="desc">
           <Typography paragraph>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            distinctio facilis quidem iusto est praesentium placeat fuga, totam
-            incidunt laboriosam accusantium quos minus, eaque ducimus recusandae
-            maiores magnam? Atque perferendis reprehenderit ipsum expedita.
+            Computer science student aspiring to become a software developer.
+            Passionate about coding, problem-solving, and creating innovative
+            solutions. Constantly learning and exploring new technologies to
+            expand my skillset.
           </Typography>
         </div>
-
         <div id="tags">
           <div>
-            <WorkIcon fontSize="small" sx={{ color: "GrayText" }} />
+            <ArticleIcon fontSize="small" sx={{ color: "GrayText" }} />
             <Typography variant="body1" sx={{ color: "GrayText" }}>
-              Available
+              <a>Download CV</a>
             </Typography>
           </div>
           <div>
