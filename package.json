@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "cale-govindasami",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://cgov-0406.github.io/portfolio",
+  "homepage": "http://cgov-0406.github.io/cale-govindasami",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
